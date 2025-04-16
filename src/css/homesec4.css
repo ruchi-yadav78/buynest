@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.homesec4main {
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.twobanner {
+     display: flex;
+     margin: 60px 0 60px 0;
+     column-gap: 25px;
+}
+.snackbn {
+  background-image: url(../media/snacksbn.jpg);
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 60px;
+  width: 50%;
+}
+.snackbn2 {
+    background-image: url(../media/fruits.jpg);
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 60px;
+    width: 50%;
+  }
+  .snackbninfo {
+    width: 217px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-left: auto;
+    font-style: normal;
+  }
+  .snackbninfo h3 {
+    font-weight: 700;
+    color: #4b5966;
+    word-spacing: 5px;
+    font-size: 30px;
+  }
+
+  .snackbninfo p {
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+  }
+  .snackbninfo button {
+    color: white;
+    background-color: #706233;
+    padding: 7px 16px;
+    /* margin-top: 12px; */
+    font-size: 13px;
+    border: 1px solid #706233;
+    border-radius: 5px;
+  }
+  .snackbninfo:hover button {
+    background-color: #4b5966;
+  }
+  .fourcopan {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+    margin-bottom: 60px;
+    row-gap: 25px;
+    
+  }
+  .copan1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    height: 213px;
+    row-gap: 10px;
+    border: 1px solid #ede9e9;
+}
+  .copan1 i{
+    font-size: 40px;
+     color: #E1C78F;
+  }
+  .copan1 h4{
+    color: #4b5966;
+    font-size: 19px;
+  }
+  .copan1 h6 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -7px;
+    line-height: 25px;
+}
+.fourblog {
+  display: grid;
+  margin-top: 30px;
+  column-gap: 25px;
+  row-gap: 25px;
+  grid-template-columns: repeat(5, 1fr);
+}
+.blog1img {
+  width: 100%;
+  transform: scale(1);
+  border-radius: 7px;
+  transition: all 1s ease;
+  overflow: hidden;
+}
+.blog1img img{
+  width: 100%;
+  border-radius: 7px;
+}
+.blog1:hover img{
+  transform: scale(1.1);
+  border-radius: 7px;
+ 
+}
+.blog1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.blogsec {
+  margin-bottom: 60px;
+}
+.blog1 span{
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #999;
+}
+.blog1 h5{
+  color: #4b5966;
+  font-size: 17px;
+  font-weight: 500;
+}
+.blog1 h6 {
+  font-size: 13px;
+  color: #999;
+}
+.blog1 i {
+  font-size: 12px;
+}
+  @media only screen and (min-width: 320px) and (max-width: 575px) { 
+    .snackbn2,.snackbn {
+        height: 272px;
+        padding-right: 30px;
+        width: 100%;
+        background-position: right;
+    }
+    .twobanner {
+        margin: 60px 15px 60px 15px;
+    }
+    .twobanner {
+        flex-direction: column;
+        row-gap: 25px;
+  }
+  .snackbninfo {
+    width: 222px;
+  }
+  .copan1 {
+    width: 265px;
+    margin: 0 auto;
+  }
+  .fourcopan {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 15px 60px 15px;
+  }
+  .blogsec {
+    margin: 0 15px 60px 15px;
+}
+  .fourblog {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .deal {
+    text-align: center;
+  }
+  .proddata {
+    text-align: center;
+  }
+  }
+  @media only screen and (min-width: 575px) and (max-width: 778px) { 
+    .snackbn2,.snackbn {
+        height: 272px;
+        padding-right: 30px;
+        width: 100%;
+        background-position: right;
+    }
+    .twobanner {
+        margin: 60px 35px 60px 35px;
+    }
+    .twobanner {
+        flex-direction: column;
+        row-gap: 25px;
+  }
+  .snackbninfo {
+    width: 222px;
+  }
+  .fourcopan {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 35px 60px 35px;
+  }
+  .fourblog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blogsec {
+    margin: 0 35px 60px 35px;
+}
+  .deal {
+    text-align: center;
+  }
+  .proddata {
+    text-align: center;
+  }
+}
+  @media only screen and (min-width: 778px) and (max-width: 991px) { 
+    .snackbn2,.snackbn {
+        height: 272px;
+        padding-right: 30px;
+        width: 100%;
+        background-position: right;
+    }
+    .twobanner {
+        margin: 60px 25px 60px 25px;
+    }
+    .copan1 {
+      height: 242px;
+    }
+    .twobanner {
+        flex-direction: column;
+        row-gap: 25px;
+  }
+  .fourcopan {
+    margin: 0px 25px 60px 25px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .snackbninfo {
+    width: 268px;
+  }
+  .deal {
+    text-align: center;
+  }
+  .proddata {
+    text-align: center;
+  }
+  .blogsec {
+    margin: 0 25px 60px 25px;
+}
+  .fourblog {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+}
+  @media only screen and (min-width: 991px) and (max-width: 1200px) { 
+    .twobanner {
+        margin: 60px 20px 60px 20px;
+    }
+    .fourcopan {
+      margin: 20px 20px 60px 20px;
+    }
+    .snackbn2,.snackbn {
+        padding-right: 0px;
+        background-position: right;
+    }
+    .deal {
+      text-align: center;
+    }
+    .proddata {
+      text-align: center;
+    }
+    .blogsec {
+      margin: 0 20px 60px 20px;
+  }
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1330px) { 
+    .twobanner {
+        margin: 60px 20px 60px 20px;
+    }
+    .fourcopan {
+      margin: 20px 20px 60px 20px;
+    }
+    .blogsec {
+      margin: 0 20px 60px 20px;
+  }
+  .deal {
+    text-align: center;
+  }
+  .proddata {
+    text-align: center;
+  }
+  }

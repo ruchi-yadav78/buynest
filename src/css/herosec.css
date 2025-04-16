@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heromain {
+    max-width: 1300px;
+    margin: 30px auto;
+}
+/* ------------------------bootsrap css start here---------------------------------- */
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    height: 582px !important;
+    overflow: hidden;
+}
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    filter: drop-shadow(2px 4px 6px black);
+    height: 13px !important;
+    border-radius: 100% !important;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 200px;
+    width: 15px !important;
+    height: 15px !important;
+}
+.carousel-caption {
+    height: 100%;
+    width: 100%;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.carousel-item.active {
+    height: 100%;
+}
+
+/* ------------------------bootsrap css End here---------------------------------- */
+.sdcap {
+    width: fit-content;
+    text-align: left;
+    margin-right: 100px;
+}
+.sdcap h5 {
+    color: #695514;
+}
+.sdcap p {
+    font-size: 54px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.shop  {
+    color: white;
+    background-color: #706233;
+    padding: 10px 20px;
+    border: 1px solid #706233;
+    border-radius: 5px;
+}
+.shop:hover {
+  background-color: #4b5966;
+}
+.shop {
+    font-size: 13px;
+}
+.sdcapmain {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: right;
+}
+
+/* img.d-block.w-100 {
+    height: 100%;
+    object-fit: cover;
+} */
+.sdcapmain3 {
+    display: flex;
+    justify-content: left;
+    height: 100%;
+    align-items: center;
+}
+.sdcap2 {
+    margin-left: 100px !important;
+}
+.accoinfo h6 {
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 600; */
+    font-style: normal;
+}
+
+.bakerymain {
+    height: 157px;
+    width: 200px;
+    background: linear-gradient(0deg, rgba(247,238,238,1) 27%, rgba(130, 226, 199, 0.77) 74%);
+    border-radius: 5px;
+    background-position: bottom;
+    padding: 15px;
+    transition: background-position 1s ease;
+}
+
+.bakerymain:hover {
+    background-size: 200% 200%;
+    background-position: top;
+     /* background: linear-gradient(0deg, rgba(130, 226, 199, 0.77) 0%, rgba(130, 226, 199, 0.77) 100%);   */
+}
+
+
+.bakerymain2 {
+    background: linear-gradient(0deg, rgba(247,238,238,1) 24%, rgb(255 202 185 / 94%) 75%);
+    height: 157px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 15px;
+    background-position: bottom;
+    transition: background-position 1s ease;
+ 
+}
+.bakerymain2:hover {
+    background-size: 200% 200%;
+    background-position: top;
+}
+.bakerymain3 {
+    height: 157px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 15px;
+    background: linear-gradient(0deg, rgba(246, 235, 235, 0.959) 24%, rgba(251, 195, 255, 0.94) 75%);
+    background-position: bottom;
+    transition: background-position 1s ease;
+   
+}
+.bakerymain3:hover {
+    background-size: 200% 200%;
+    background-position: top;
+}
+.bakerymain4 {
+    height: 157px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 15px;
+    background: linear-gradient(0deg, rgba(246, 235, 235, 0.959) 24%, rgba(173, 219, 254, 0.94) 75%);
+    background-position: bottom;
+    transition: background-position 1s ease;
+}
+.bakerymain4:hover {
+    background-size: 200% 200%;
+    background-position: top;
+}
+.bakerymain5 {
+    height: 157px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 15px;
+    background: linear-gradient(0deg, rgba(246, 235, 235, 0.959) 24%, rgba(246, 241, 157, 0.94) 75%);
+    background-position: bottom;
+    transition: background-position 0.5s ease;
+}
+.bakerymain5:hover {
+    background-size: 200% 200%;
+    background-position: top;
+}
+.bakerymain6 {
+    height: 157px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 15px;
+    background: linear-gradient(0deg, rgba(246, 235, 235, 0.959) 24%, rgba(254, 229, 170, 0.94) 75%);
+    background-position: bottom;
+    transition: background-position 0.5s ease;
+}
+.bakerymain6:hover {
+    background-size: 200% 200%;
+    background-position: top;
+}
+.bakerymain7 {
+    /* background-color:  #e2fde2 !important; */
+    height: 157px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 15px;
+    background: linear-gradient(0deg, rgba(246, 235, 235, 0.959) 24%, rgba(180, 254, 170, 0.986) 75%);
+    background-position: bottom;
+    transition: background-position 0.5s ease;
+}
+.bakerymain7:hover {
+    background-size: 200% 200%;
+    background-position: top;
+}
+.bakerymain8 {
+    /* background-color:  #ffeae9 !important; */
+    height: 157px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 15px;
+    background: linear-gradient(0deg, rgba(246, 235, 235, 0.959) 24%, rgb(254, 180, 170) 75%);
+    background-position: bottom;
+    transition: background-position 0.5s ease;
+}
+.bakerymain8:hover {
+    background-size: 200% 200%;
+    background-position: top;
+}
+.bakerymain9 {
+    /* background-color:  #fde1f5 !important; */
+    height: 157px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 15px;
+    background: linear-gradient(0deg, rgba(246, 235, 235, 0.959) 24%, rgba(251, 195, 255, 0.94) 75%);
+    background-position: bottom;
+    transition: background-position 1s ease;
+}
+.bakerymain9:hover {
+    background-size: 200% 200%;
+    background-position: top;
+}
+.bakery {
+    border-radius: 5px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+}
+.bakery i {
+    font-size: 35px;
+}
+.bakery h6 {
+    margin-top: 10px;
+}
+.scrollmain {
+    display: flex;
+    column-gap: 20px;
+}
+.sec2main {
+    display: flex;
+    margin: 50px 0;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.sec2main::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 575px) { 
+     /* ----------------bootsrap slider start--------------- */
+     .w-100 {
+        height: 100%;
+        width: 100% !important;
+    }
+    .heromain {
+        margin: 15px 15px !important;
+    }
+    .sdcap {
+        margin: 0 20px !important;
+    }
+    .sdcap2 {
+        margin: 0 20px !important;
+    }
+    .carousel-item {
+         height: 100% !important;
+
+    }
+    .carousel-inner {
+        height: 506px !important;
+    }
+    img.d-block.w-100 {
+        object-fit: cover !important;
+        filter: brightness(0.5);
+        object-position: top !important;
+    }
+    .sdcap h5 {
+        color: #b893eb !important;
+    }
+    .sdcapmain {
+        justify-content: left !important;
+    }
+    .sdcap p {
+        font-size: 46px !important;
+    }
+      /* ----------------bootsrap End--------------- */
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) { 
+    /* ----------------bootsrap slider start--------------- */
+    .w-100 {
+       height: 100%;
+       width: 100% !important;
+   }
+   .heromain {
+       margin: 15px 15px !important;
+   }
+   .sdcap {
+       margin: 0 20px !important;
+   }
+   .sdcap2 {
+       margin: 0 20px !important;
+   }
+   .carousel-item {
+        height: 100% !important;
+
+   }
+   img.d-block.w-100 {
+       object-fit: cover !important;
+       filter: brightness(0.5);
+       object-position: top !important;
+   }
+   .sdcap h5 {
+       color: #b893eb !important;
+   }
+   .sdcapmain {
+       justify-content: left !important;
+   }
+   .sdcap p {
+       font-size: 46px !important;
+   }
+     /* ----------------bootsrap End--------------- */
+     .sec2main {
+        margin: 50px 22px;
+     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    /* ----------------bootsrap slider start--------------- */
+    .w-100 {
+       height: 100%;
+       width: 100% !important;
+   }
+   .heromain {
+       margin: 0 0 !important;
+   }
+   .sdcap {
+       margin: 0 50px !important;
+   }
+   .sdcap2 {
+       margin: 0 50px !important;
+   }
+   .carousel-item {
+        height: 100% !important;
+
+   }
+   img.d-block.w-100 {
+       object-fit: cover !important;
+       filter: brightness(0.5);
+       object-position: top !important;
+   }
+   .sdcap h5 {
+       color: #b893eb !important;
+   }
+   .sdcapmain {
+       justify-content: left !important;
+   }
+     /* ----------------bootsrap End--------------- */
+     .sec2main {
+        margin: 50px 25px;
+     }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) { 
+
+    .head1 {
+        margin: 0 20px;
+        height: 77px;
+    }
+    .search {
+        width: 323px;
+    }
+    .head2 {
+        padding: 10px 20px;
+    }
+    .w-100 {
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .carousel-item {
+        height: 100% !important;
+
+   }
+   .prodtag1 {
+    text-align: center;
+   }
+   .heromain {
+    margin: 0 auto;
+   }
+
+}
