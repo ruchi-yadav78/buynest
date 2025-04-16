@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from './pages/home';
 import About from './pages/about';
 import Blog from './pages/blog';
@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-       <BrowserRouter>
+       <HashRouter>
        <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />} />
@@ -70,7 +70,7 @@ function App() {
         <Route path="/product14" element={<Product14 />} />
         <Route path="/product15" element={<Product15 />} />
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
