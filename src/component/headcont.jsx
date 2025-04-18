@@ -1,8 +1,11 @@
 import React from 'react'
+import { useAuth0 } from "@auth0/auth0-react";
 import '../css/header.css'
 // import '../component/menu'
 import { Link } from "react-router-dom";
 export default function Headcont() {
+     const { user, loginWithRedirect, isAuthenticated, logout } = useAuth0();
+     console.log("Current User", user);
      var x=0;
     const handleClick = () => {
         x++;
@@ -53,8 +56,11 @@ export default function Headcont() {
                             <div class="acco">
                                 <i class="fa-regular fa-user"></i>
                                 <div class="accoinfo">
-                                    <span>Account</span>
-                                    <h6>Login</h6>
+                                    {isAuthenticated && <h1>Hello {user.name}</h1>}
+                                    {
+                                        isAuthenticated ? (<button onClick={(e) => logout()}>Logout</button>) : (<button onClick={(e) => loginWithRedirect()}>Login</button>)
+                                    }
+                                    
                                 </div>
                             </div>
                             <div class="acco">
