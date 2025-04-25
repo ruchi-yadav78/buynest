@@ -56,7 +56,7 @@ export default function Headcont() {
                             <div class="acco">
                                 <i class="fa-regular fa-user"></i>
                                 <div class="accoinfo">
-                                    {isAuthenticated && <h1>Hello {user.name}</h1>}
+                                    {/* {isAuthenticated && <h1>Hello {user.name}</h1>} */}
                                     {
                                         isAuthenticated ? (<button onClick={(e) => logout()}>Logout</button>) : (<button onClick={(e) => loginWithRedirect()}>Login</button>)
                                     }
