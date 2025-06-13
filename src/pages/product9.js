@@ -14,16 +14,16 @@ export default function Product9() {
     return (
         <div>
             <Headcont />
-            <div class="itemsbody">
-                <div class="product-card">
-                    <div class="product-image">
+            <div className="itemsbody">
+                <div className="product-card">
+                    <div className="product-image">
                         <img src={item14} alt="Product Image" />
                     </div>
-                    <div class="product-info">
+                    <div className="product-info">
                         <h1>Fresh Coconut</h1>
-                        <p class="category">Fresh Brown Coconut</p>
-                        <p class="price">$ 15.00<span class="old-price">$ 19.00</span></p>
-                        <p class="description">
+                        <p className="category">Fresh Brown Coconut</p>
+                        <p className="price">$ 15.00<span className="old-price">$ 19.00</span></p>
+                        <p className="description">
                         Fresh Brown Coconut is a versatile and nutritious fruit, packed with hydrating coconut water and rich, creamy flesh. It’s perfect for making coconut milk, desserts, or enjoying raw for its natural sweetness and health benefits. A great source of fiber and healthy fats, it adds tropical goodness to your diet.
                         </p>
                         <div className="quantity-container">
@@ -37,7 +37,7 @@ export default function Product9() {
                             <button className="quantity-btn" onClick={() => changeQuantity(1)}>+</button>
                         </div>
 
-                        <button class="add-to-cart">Add to Cart</button>
+                        <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>

@@ -15,16 +15,16 @@ export default function Product2() {
   return (
     <div>
      <Headcont />
-                <div class="itemsbody">
-                    <div class="product-card">
-                        <div class="product-image">
+                <div className="itemsbody">
+                    <div className="product-card">
+                        <div className="product-image">
                             <img src={item7} alt="Product Image" />
                         </div>
-                        <div class="product-info">
+                        <div className="product-info">
                             <h1>Foods</h1>
-                            <p class="category">Stick Fiber Masala Magic</p>
-                            <p class="price">$ 45.00 <span class="old-price">$ 50.00</span></p>
-                            <p class="description">
+                            <p className="category">Stick Fiber Masala Magic</p>
+                            <p className="price">$ 45.00 <span className="old-price">$ 50.00</span></p>
+                            <p className="description">
                             Stick Fiber Masala Magic is a flavorful and healthy snack that combines the goodness of dietary fiber with a burst of spicy Indian masala. These crunchy sticks are made from natural ingredients and are perfect for those looking for a tasty yet guilt-free treat. Packed with fiber, they support digestion and help keep you feeling full longer. The unique blend of spices adds a delicious zing, making it a favorite among both kids and adults. Stick Fiber Masala Magic is the perfect choice.
                             </p>
                             <div className="quantity-container">
@@ -38,7 +38,7 @@ export default function Product2() {
                                 <button className="quantity-btn" onClick={() => changeQuantity(1)}>+</button>
                             </div>
     
-                            <button class="add-to-cart">Add to Cart</button>
+                            <button className="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
                 </div>

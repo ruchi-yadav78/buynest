@@ -14,16 +14,16 @@ export default function Product2() {
     return (
         <div>
             <Headcont />
-            <div class="itemsbody">
-                <div class="product-card">
-                    <div class="product-image">
+            <div className="itemsbody">
+                <div className="product-card">
+                    <div className="product-image">
                         <img src={item10} alt="Product Image" />
                     </div>
-                    <div class="product-info">
+                    <div className="product-info">
                         <h1>Fresh Lichi</h1>
-                        <p class="category">Fresh juice pack</p>
-                        <p class="price">$ 20.00 <span class="old-price">$ 21.00</span></p>
-                        <p class="description">
+                        <p className="category">Fresh juice pack</p>
+                        <p className="price">$ 20.00 <span className="old-price">$ 21.00</span></p>
+                        <p className="description">
                         Fresh Litchi Juice Pack offers the delightful sweetness of handpicked, juicy litchis in a convenient, ready-to-drink form. Rich in vitamin C and antioxidants, it helps boost immunity and keeps you refreshed. Made without artificial preservatives, it delivers the pure, natural taste of litchis in every sip.
                         </p>
                         <div className="quantity-container">
@@ -37,7 +37,7 @@ export default function Product2() {
                             <button className="quantity-btn" onClick={() => changeQuantity(1)}>+</button>
                         </div>
 
-                        <button class="add-to-cart">Add to Cart</button>
+                        <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>

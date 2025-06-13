@@ -12,46 +12,46 @@ export default function Blog() {
   return (
     <div>
      <Headcont />
-     <div class="blogmain">
-       <div class="blogsec1">
-        <div class="catsearch"><input type="text" placeholder='Search'/> <i class="fa-solid fa-magnifying-glass"></i></div>
-      <div class="articles">
+     <div className="blogmain">
+       <div className="blogsec1">
+        <div className="catsearch"><input type="text" placeholder='Search'/> <i className="fa-solid fa-magnifying-glass"></i></div>
+      <div className="articles">
          <h5>Recent Articles</h5>
-         <div class="articlesinfo">
+         <div className="articlesinfo">
           <img src={organi} alt="" />
-          <div class="organicdata">
+          <div className="organicdata">
              <h4>The best fashion influencers.</h4>
              <h6>June 30,2021-2022</h6>
              <span>- Organic</span>
           </div>
          </div>
-         <div class="articlesinfo">
+         <div className="articlesinfo">
           <img src={fruits2} alt="" />
-          <div class="organicdata">
+          <div className="organicdata">
              <h4>Vogue Shopping Weekend.</h4>
              <h6>April 02,2021-2022</h6>
              <span>- Fastfood</span>
           </div>
          </div>
-         <div class="articlesinfo">
+         <div className="articlesinfo">
           <img src={vege} alt="" />
-          <div class="organicdata">
+          <div className="organicdata">
              <h4>Trending Fresh Fruits Juice.</h4>
              <h6>Mar 09,2021-2022</h6>
              <span>- Juice</span>
           </div>
          </div>
-         <div class="articlesinfo">
+         <div className="articlesinfo">
           <img src={fastfood} alt="" />
-          <div class="organicdata">
+          <div className="organicdata">
              <h4>Summer Trending vegetable Market.</h4>
              <h6>January 25,2021-2022</h6>
              <span>- Vegetables</span>
           </div>
          </div>
-         <div class="articlesinfo">
+         <div className="articlesinfo">
           <img src={almonds} alt="" />
-          <div class="organicdata">
+          <div className="organicdata">
              <h4>Winter 2021 Trending Fashion Market.</h4>
              <h6>December 10,2021-2022</h6>
              <span>- Dried Fruits</span>
@@ -60,12 +60,12 @@ export default function Blog() {
       </div>
        </div>
 
-       <div class="blogsec2">
+       <div className="blogsec2">
         <img src={blogcontimg} alt="" />
         <h5>June 30,2022 - Organic</h5>
         <h4>Marketing Guide: 5 Steps to Success.</h4>
         <p>To achieve marketing success, start by identifying your target audience through research and analysis of demographics, interests, and behavior. Next, develop a strong brand message that clearly communicates your unique value and resonates with your audience. Choosing the right marketing channels, such as social media, email marketing, SEO, and paid ads, is crucial for reaching potential customers effectively. Creating engaging content, including blogs, videos, and infographics, helps capture interest and build brand loyalty. Finally, continuously analyze key metrics, gather customer feedback, and optimize your strategies to improve results. By following these steps, you can build a strong marketing foundation and drive long-term success. </p>
-        <div class="blogtwoimg">
+        <div className="blogtwoimg">
           <img src={fastfood} alt="" />
           <img src={vege} alt="" />
           </div>     

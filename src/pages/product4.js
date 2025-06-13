@@ -14,16 +14,16 @@ export default function Product4() {
     return (
         <div>
             <Headcont />
-            <div class="itemsbody">
-                <div class="product-card">
-                    <div class="product-image">
+            <div className="itemsbody">
+                <div className="product-card">
+                    <div className="product-image">
                         <img src={item9} alt="Product Image" />
                     </div>
-                    <div class="product-info">
+                    <div className="product-info">
                         <h1>Foods</h1>
-                        <p class="category">Natural Hub Cherry Karonda</p>
-                        <p class="price">$ 49.00<span class="old-price">$ 65.00</span></p>
-                        <p class="description">
+                        <p className="category">Natural Hub Cherry Karonda</p>
+                        <p className="price">$ 49.00<span className="old-price">$ 65.00</span></p>
+                        <p className="description">
                            Natural Hub Cherry Karonda is a nutritious and tangy fruit packed with antioxidants and essential vitamins. Its unique sweet-sour taste makes it perfect for pickles, jams, and traditional recipes. Sourced naturally, it supports digestion and overall well-being while adding a refreshing burst of flavor to your diet. </p>
                         <div className="quantity-container">
                             <button className="quantity-btn" onClick={() => changeQuantity(-1)}>-</button>
@@ -36,7 +36,7 @@ export default function Product4() {
                             <button className="quantity-btn" onClick={() => changeQuantity(1)}>+</button>
                         </div>
 
-                        <button class="add-to-cart">Add to Cart</button>
+                        <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>

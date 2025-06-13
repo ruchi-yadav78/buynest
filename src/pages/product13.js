@@ -14,16 +14,16 @@ export default function Product13() {
     return (
         <div>
             <Headcont />
-            <div class="itemsbody">
-                <div class="product-card">
-                    <div class="product-image">
+            <div className="itemsbody">
+                <div className="product-card">
+                    <div className="product-image">
                         <img src={item18} alt="Product Image" />
                     </div>
-                    <div class="product-info">
+                    <div className="product-info">
                         <h1>Milk</h1>
-                        <p class="category">Fairlife Lactose-Free 2% Milk</p>
-                        <p class="price">$ 3.00<span class="old-price">$ 4.00</span></p>
-                        <p class="description">
+                        <p className="category">Fairlife Lactose-Free 2% Milk</p>
+                        <p className="price">$ 3.00<span className="old-price">$ 4.00</span></p>
+                        <p className="description">
                         Fairlife Lactose-Free 2% Milk provides rich, creamy dairy goodness without the discomfort of lactose. Ultra-filtered for higher protein and calcium, it’s a nutritious choice for a balanced diet. Smooth and delicious, it’s perfect for drinking, cooking, or adding to your favorite recipes.
                         </p>
                         <div className="quantity-container">
@@ -37,7 +37,7 @@ export default function Product13() {
                             <button className="quantity-btn" onClick={() => changeQuantity(1)}>+</button>
                         </div>
 
-                        <button class="add-to-cart">Add to Cart</button>
+                        <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>

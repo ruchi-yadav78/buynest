@@ -47,15 +47,15 @@ export default function Headcont() {
         };
     return (
         <div>
-            <div class="mainhead">
-                <div class="head1main">
-                    <div class="head1">
-                        <div class="brand"><Link to="/"><i class="fa-solid fa-basket-shopping"></i> Buy<span>Nest</span></Link></div>
-                        <div class="search"><input type="text" placeholder='Search Products' /> <i class="fa-solid fa-magnifying-glass"></i></div>
-                        <div class="wishlist">
-                            <div class="acco">
-                                <i class="fa-regular fa-user"></i>
-                                <div class="accoinfo">
+            <div className="mainhead">
+                <div className="head1main">
+                    <div className="head1">
+                        <div className="brand"><Link to="/"><i className="fa-solid fa-basket-shopping"></i> Buy<span>Nest</span></Link></div>
+                        <div className="search"><input type="text" placeholder='Search Products' /> <i className="fa-solid fa-magnifying-glass"></i></div>
+                        <div className="wishlist">
+                            <div className="acco">
+                                <i className="fa-regular fa-user"></i>
+                                <div className="accoinfo">
                                     {/* {isAuthenticated && <h1>Hello {user.name}</h1>} */}
                                     {
                                         isAuthenticated ? (<button onClick={(e) => logout()}>Logout</button>) : (<button onClick={(e) => loginWithRedirect()}>Login</button>)
@@ -63,37 +63,37 @@ export default function Headcont() {
                                     
                                 </div>
                             </div>
-                            <div class="acco">
-                                <i class="fa-regular fa-heart"></i>
-                                <div class="accoinfo">
+                            <div className="acco">
+                                <i className="fa-regular fa-heart"></i>
+                                <div className="accoinfo">
                                     <span>Wishlist</span>
                                     <h6>4-ITEMS</h6>
                                 </div>
                             </div>
-                            <div class="acco">
-                                <i class="fa-solid fa-bag-shopping"></i>
-                                <div class="accoinfo">
+                            <div className="acco">
+                                <i className="fa-solid fa-bag-shopping"></i>
+                                <div className="accoinfo">
                                     <span>Cart</span>
                                     <h6>3-ITEMS</h6>
                                 </div>
                             </div>
                         </div>
                         {/* ----------toggle css start here--------------- */}
-                        <div class="menubar">
-                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars-staggered"></i></button>
+                        <div className="menubar">
+                            <button className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i className="fa-solid fa-bars-staggered"></i></button>
 
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                                <div class="offcanvas-header">
-                                    <h5 id="offcanvasRightLabel"><div class="brand"><i class="fa-solid fa-basket-shopping"></i> Buy<span>Nest</span></div></h5>
-                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div className="offcanvas-header">
+                                    <h5 id="offcanvasRightLabel"><div className="brand"><i className="fa-solid fa-basket-shopping"></i> Buy<span>Nest</span></div></h5>
+                                    <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
-                                <div class="offcanvas-body">
-                                    <div class="togglepage">
-                                        <Link to="/"><div class="webpage1"><i class="fa-solid fa-house"></i> Home</div></Link>
-                                        <Link to="/about"><div class="webpage1"><i class="fa-solid fa-user"></i> About Us</div></Link>
-                                        <Link to="/blog"><div class="webpage1"><i class="fa-solid fa-briefcase"></i> Blog</div></Link>
-                                        <Link to="/catego"><div class="webpage1"><i class="fa-light fa-grid-2"></i> Categories</div></Link>
-                                        <Link to="/contact"><div class="webpage1"><i class="fa-solid fa-envelope"></i> Contact</div></Link>
+                                <div className="offcanvas-body">
+                                    <div className="togglepage">
+                                        <Link to="/"><div className="webpage1"><i className="fa-solid fa-house"></i> Home</div></Link>
+                                        <Link to="/about"><div className="webpage1"><i className="fa-solid fa-user"></i> About Us</div></Link>
+                                        <Link to="/blog"><div className="webpage1"><i className="fa-solid fa-briefcase"></i> Blog</div></Link>
+                                        <Link to="/catego"><div className="webpage1"><i className="fa-light fa-grid-2"></i> Categories</div></Link>
+                                        <Link to="/contact"><div className="webpage1"><i className="fa-solid fa-envelope"></i> Contact</div></Link>
 
                                     </div>
 
@@ -106,26 +106,26 @@ export default function Headcont() {
                 </div>
 
 
-                <div class="head2">
-                    <div class="categories"><Link to="/catego"><i class="fa-solid fa-border-all"></i> All Categories <i class="fa-solid fa-angle-down"></i></Link>
-                        <div class="categdd">
-                            <div class="minidropdown">
-                                 <div class="dropcateg1">
-                                    <div class="dairybakery"><i class="fa-light fa-cupcake"></i> Dairy & Bakery</div>
-                                    <div class="dairybakery2" onClick={handleClick}><i class="fa-light fa-tomato"></i> Fruits & Vegetable</div>
-                                    <div class="dairybakery2" onClick={menubar3}><i class="fa-light fa-popcorn"></i> Snack & Spice</div>
-                                    <div class="dairybakery2"onClick={menubar}><i class="fa-light fa-martini-glass-citrus"></i> Juice & Drinks</div>
+                <div className="head2">
+                    <div className="categories"><Link to="/catego"><i className="fa-solid fa-border-all"></i> All Categories <i className="fa-solid fa-angle-down"></i></Link>
+                        <div className="categdd">
+                            <div className="minidropdown">
+                                 <div className="dropcateg1">
+                                    <div className="dairybakery"><i className="fa-light fa-cupcake"></i> Dairy & Bakery</div>
+                                    <div className="dairybakery2" onClick={handleClick}><i className="fa-light fa-tomato"></i> Fruits & Vegetable</div>
+                                    <div className="dairybakery2" onClick={menubar3}><i className="fa-light fa-popcorn"></i> Snack & Spice</div>
+                                    <div className="dairybakery2"onClick={menubar}><i className="fa-light fa-martini-glass-citrus"></i> Juice & Drinks</div>
                                  </div>
-                                 <div class="megamenus">
-                                 <div class="dropcateginfo1">
-                                    <div class="dairyinfo"><span>Dairy</span> 
+                                 <div className="megamenus">
+                                 <div className="dropcateginfo1">
+                                    <div className="dairyinfo"><span>Dairy</span> 
                                         <h6>Cauliflower</h6>
                                         <h6>Bell Peppers</h6>
                                         <h6>Broccoli</h6>       
                                         <h6>Cabbage</h6>
                                         <h6>Tomato</h6>
                                     </div>
-                                    <div class="dairyinfo"><span>Bakery</span> 
+                                    <div className="dairyinfo"><span>Bakery</span> 
                                         <h6>Cake and Pastry</h6>
                                         <h6>Rusk Toast</h6>
                                         <h6>Bread & Buns</h6>
@@ -133,15 +133,15 @@ export default function Headcont() {
                                         <h6>Cream Roll</h6>
                                     </div>
                                  </div>
-                                 <div class="dropcateginfo" id='prodinfo'>
-                                    <div class="dairyinfo"><span>Fruits</span> 
+                                 <div className="dropcateginfo" id='prodinfo'>
+                                    <div className="dairyinfo"><span>Fruits</span> 
                                         <h6>Mango</h6>
                                         <h6>Blue Berry</h6>
                                         <h6>Banana</h6>       
                                         <h6>Orange</h6>
                                         <h6>Grapes</h6>
                                     </div>
-                                    <div class="dairyinfo"><span>Vegetable</span> 
+                                    <div className="dairyinfo"><span>Vegetable</span> 
                                         <h6>Cauliflower</h6>
                                         <h6>Bell Peppers</h6>
                                         <h6>Broccoli</h6>
@@ -149,15 +149,15 @@ export default function Headcont() {
                                         <h6>Tomato</h6>
                                     </div>
                                  </div>
-                                 <div class="dropcateginfo3" id='prodinfo3'>
-                                    <div class="dairyinfo"><span>Snacks</span> 
+                                 <div className="dropcateginfo3" id='prodinfo3'>
+                                    <div className="dairyinfo"><span>Snacks</span> 
                                         <h6>French fries</h6>
                                         <h6>potato chips</h6>
                                         <h6>Biscuits & Cookies</h6>       
                                         <h6>Popcorn</h6>
                                         <h6>Rice Cakes</h6>
                                     </div>
-                                    <div class="dairyinfo"><span>Spice</span> 
+                                    <div className="dairyinfo"><span>Spice</span> 
                                         <h6>Cinnamon Powder</h6>
                                         <h6>Cumin Powder</h6>
                                         <h6>Fenugreek Powder</h6>
@@ -165,15 +165,15 @@ export default function Headcont() {
                                         <h6>Long Pepper</h6>
                                     </div>
                                  </div>
-                                 <div class="dropcateginfo3" id='prodinfo1'>
-                                    <div class="dairyinfo"><span>Juice</span> 
+                                 <div className="dropcateginfo3" id='prodinfo1'>
+                                    <div className="dairyinfo"><span>Juice</span> 
                                         <h6>Mango Juice</h6>
                                         <h6>Coconut Water</h6>
                                         <h6>Tetra Pack</h6>       
                                         <h6>Apple Juices</h6>
                                         <h6>Lychee Juice</h6>
                                     </div>
-                                    <div class="dairyinfo"><span>Soft Drink</span> 
+                                    <div className="dairyinfo"><span>Soft Drink</span> 
                                         <h6>Breizh Cola</h6>
                                         <h6>Green Cola</h6>
                                         <h6>Jolt Cola</h6>
@@ -186,15 +186,15 @@ export default function Headcont() {
                             </div>
                         </div>
                     </div>
-                    <div class="headmenu">
-                        <div class="home"><Link to="/">Home <i class="fa-solid fa-angle-down"></i></Link></div>
-                        <div class="home"> <Link to="/about">About us <i class="fa-solid fa-angle-down"></i></Link></div>
-                        <div class="home"> <Link to="/blog">Blog <i class="fa-solid fa-angle-down"></i></Link></div>
-                        <div class="home"><Link to="/catego">Categories <i class="fa-solid fa-angle-down"></i></Link></div>
-                        <div class="home"><Link to="/contact">Contact <i class="fa-solid fa-angle-down"></i></Link></div>
+                    <div className="headmenu">
+                        <div className="home"><Link to="/">Home <i className="fa-solid fa-angle-down"></i></Link></div>
+                        <div className="home"> <Link to="/about">About us <i className="fa-solid fa-angle-down"></i></Link></div>
+                        <div className="home"> <Link to="/blog">Blog <i className="fa-solid fa-angle-down"></i></Link></div>
+                        <div className="home"><Link to="/catego">Categories <i className="fa-solid fa-angle-down"></i></Link></div>
+                        <div className="home"><Link to="/contact">Contact <i className="fa-solid fa-angle-down"></i></Link></div>
 
                     </div>
-                    <div class="curtloc"><i class="fa-solid fa-location-dot"></i> New York <i class="fa-solid fa-angle-down"></i></div>
+                    <div className="curtloc"><i className="fa-solid fa-location-dot"></i> New York <i className="fa-solid fa-angle-down"></i></div>
                 </div>
             </div>
         </div>

@@ -14,16 +14,16 @@ export default function Product6() {
     return (
         <div>
             <Headcont />
-            <div class="itemsbody">
-                <div class="product-card">
-                    <div class="product-image">
+            <div className="itemsbody">
+                <div className="product-card">
+                    <div className="product-image">
                         <img src={item11} alt="Product Image" />
                     </div>
-                    <div class="product-info">
+                    <div className="product-info">
                         <h1>Vegetables</h1>
-                        <p class="category">Fresh Organic Broccoli Crowns</p>
-                        <p class="price">$ 19.00 <span class="old-price">$ 24.00</span></p>
-                        <p class="description">
+                        <p className="category">Fresh Organic Broccoli Crowns</p>
+                        <p className="price">$ 19.00 <span className="old-price">$ 24.00</span></p>
+                        <p className="description">
                         Fresh Organic Broccoli Crowns are rich in vitamins, fiber, and antioxidants, making them a nutritious addition to any meal. Grown without pesticides, these tender and flavorful crowns support overall health and immunity. Perfect for steaming, roasting, or adding to salads, they bring natural goodness to your diet.
                         </p>
                         <div className="quantity-container">
@@ -37,7 +37,7 @@ export default function Product6() {
                             <button className="quantity-btn" onClick={() => changeQuantity(1)}>+</button>
                         </div>
 
-                        <button class="add-to-cart">Add to Cart</button>
+                        <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>

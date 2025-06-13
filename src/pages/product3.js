@@ -14,16 +14,16 @@ export default function Product3() {
     return (
         <div>
             <Headcont />
-            <div class="itemsbody">
-                <div class="product-card">
-                    <div class="product-image">
+            <div className="itemsbody">
+                <div className="product-card">
+                    <div className="product-image">
                         <img src={item8} alt="Product Image" />
                     </div>
-                    <div class="product-info">
+                    <div className="product-info">
                         <h1>Tuber root</h1>
-                        <p class="category">Natural Hub Cherry Karonda</p>
-                        <p class="price">$ 2.00<span class="old-price">$ 3.00</span></p>
-                        <p class="description">
+                        <p className="category">Natural Hub Cherry Karonda</p>
+                        <p className="price">$ 2.00<span className="old-price">$ 3.00</span></p>
+                        <p className="description">
                         Fresh organic ginger packs contain handpicked, naturally grown ginger roots, free from pesticides and harmful chemicals. Known for its rich aroma and strong, zesty flavor, ginger is a staple in cooking and herbal remedies. It boosts immunity, aids digestion, and has powerful anti-inflammatory properties, making it a must-have in every kitchen. Carefully packed to retain freshness, this organic ginger ensures you get the best quality for your health and taste needs.
                         </p>
                         <div className="quantity-container">
@@ -37,7 +37,7 @@ export default function Product3() {
                             <button className="quantity-btn" onClick={() => changeQuantity(1)}>+</button>
                         </div>
 
-                        <button class="add-to-cart">Add to Cart</button>
+                        <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>

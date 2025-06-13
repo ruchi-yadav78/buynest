@@ -14,16 +14,16 @@ export default function Product10() {
     return (
         <div>
             <Headcont />
-            <div class="itemsbody">
-                <div class="product-card">
-                    <div class="product-image">
+            <div className="itemsbody">
+                <div className="product-card">
+                    <div className="product-image">
                         <img src={item15} alt="Product Image" />
                     </div>
-                    <div class="product-info">
+                    <div className="product-info">
                         <h1>Fresh Fruit</h1>
-                        <p class="category">Fresh Produce Melons Each</p>
-                        <p class="price">$ 7.00<span class="old-price">$ 8.00</span></p>
-                        <p class="description">
+                        <p className="category">Fresh Produce Melons Each</p>
+                        <p className="price">$ 7.00<span className="old-price">$ 8.00</span></p>
+                        <p className="description">
                         Fresh Produce Melons are naturally sweet, juicy, and packed with hydration, making them a refreshing treat for any occasion. Rich in vitamins, antioxidants, and fiber, they support digestion and overall health. Perfect for snacking, smoothies, or fruit salads, these melons bring a burst of natural flavor to your table.
                         </p>
                         <div className="quantity-container">
@@ -37,7 +37,7 @@ export default function Product10() {
                             <button className="quantity-btn" onClick={() => changeQuantity(1)}>+</button>
                         </div>
 
-                        <button class="add-to-cart">Add to Cart</button>
+                        <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>

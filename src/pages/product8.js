@@ -14,16 +14,16 @@ export default function Product8() {
     return (
         <div>
             <Headcont />
-            <div class="itemsbody">
-                <div class="product-card">
-                    <div class="product-image">
+            <div className="itemsbody">
+                <div className="product-card">
+                    <div className="product-image">
                         <img src={item13} alt="Product Image" />
                     </div>
-                    <div class="product-info">
+                    <div className="product-info">
                         <h1>Fresh Blueberries</h1>
-                        <p class="category">Blueberries - 1 Pint Package</p>
-                        <p class="price">$ 3.00<span class="old-price">$ 4.00</span></p>
-                        <p class="description">
+                        <p className="category">Blueberries - 1 Pint Package</p>
+                        <p className="price">$ 3.00<span className="old-price">$ 4.00</span></p>
+                        <p className="description">
                         Blueberries - 1 Pint Package offers a fresh, juicy, and antioxidant-rich snack packed with natural sweetness. These nutrient-dense berries support heart health, brain function, and overall wellness. Perfect for smoothies, baking, or enjoying straight from the pack, they bring a burst of flavor to every bite.
                         </p>
                         <div className="quantity-container">
@@ -37,7 +37,7 @@ export default function Product8() {
                             <button className="quantity-btn" onClick={() => changeQuantity(1)}>+</button>
                         </div>
 
-                        <button class="add-to-cart">Add to Cart</button>
+                        <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>

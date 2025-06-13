@@ -14,16 +14,16 @@ export default function Product7() {
     return (
         <div>
             <Headcont />
-            <div class="itemsbody">
-                <div class="product-card">
-                    <div class="product-image">
+            <div className="itemsbody">
+                <div className="product-card">
+                    <div className="product-image">
                         <img src={item12} alt="Product Image" />
                     </div>
-                    <div class="product-info">
+                    <div className="product-info">
                         <h1>Dried Fruits</h1>
-                        <p class="category">Blue Diamond Almonds Lightly Salted</p>
-                        <p class="price">$ 10.00 <span class="old-price">$ 11.00</span></p>
-                        <p class="description">
+                        <p className="category">Blue Diamond Almonds Lightly Salted</p>
+                        <p className="price">$ 10.00 <span className="old-price">$ 11.00</span></p>
+                        <p className="description">
                         Blue Diamond Almonds Lightly Salted offer a perfect balance of crunch and flavor, with just the right touch of sea salt. Packed with protein, fiber, and healthy fats, they make a nutritious and satisfying snack. These premium-quality almonds are great for on-the-go munching or adding to your favorite recipes.
                         </p>
                         <div className="quantity-container">
@@ -37,7 +37,7 @@ export default function Product7() {
                             <button className="quantity-btn" onClick={() => changeQuantity(1)}>+</button>
                         </div>
 
-                        <button class="add-to-cart">Add to Cart</button>
+                        <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>

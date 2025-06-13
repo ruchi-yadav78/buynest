@@ -14,16 +14,16 @@ export default function Product1() {
     return (
         <div>
             <Headcont />
-            <div class="itemsbody">
-                <div class="product-card">
-                    <div class="product-image">
+            <div className="itemsbody">
+                <div className="product-card">
+                    <div className="product-image">
                         <img src={item6} alt="Product Image" />
                     </div>
-                    <div class="product-info">
+                    <div className="product-info">
                         <h1>Fresh Fruit</h1>
-                        <p class="category">Natural Hub Cherry Karonda</p>
-                        <p class="price">$ 49.00<span class="old-price">$ 65.00</span></p>
-                        <p class="description">
+                        <p className="category">Natural Hub Cherry Karonda</p>
+                        <p className="price">$ 49.00<span className="old-price">$ 65.00</span></p>
+                        <p className="description">
                             Natural Hub Cherry Karonda is a tangy and nutritious fruit, perfect for fresh snacking or culinary use. Rich in antioxidants and vitamin C, it boosts immunity and promotes overall health. Its unique tart flavor enhances pickles, jams, and chutneys. Enjoy the fresh, natural taste of this wholesome superfruit!
                         </p>
                         <div className="quantity-container">
@@ -37,7 +37,7 @@ export default function Product1() {
                             <button className="quantity-btn" onClick={() => changeQuantity(1)}>+</button>
                         </div>
 
-                        <button class="add-to-cart">Add to Cart</button>
+                        <button className="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>
